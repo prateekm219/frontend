@@ -38,7 +38,8 @@ const badge = (status)=>{
                   <th className="p-3">Date</th>
                   <th className="p-3">Time</th>
                   <th className="p-3">Doctor</th>
-                  <th className="p-3">Status</th><th className="p-3">Action</th>
+                  {/* <th className="p-3">Status</th> */}
+                  <th className="p-3">Action</th>
                 </tr>
               </thead>
               <tbody>
@@ -47,7 +48,7 @@ const badge = (status)=>{
                     <td className="p-3">{a.date}</td>
                     {/* <td className="p-3">{badge(status)}</td> */}
                     <td className="p-3">{a.time}</td>
-                    <td className="p-3">{badge(status)}</td>
+                    {/* <td className="p-3">{badge(status)}</td> */}
                     <td className="p-3">{a.doctorName}</td>
                     {/* <td className="p-3">{badge(status)}</td> */}
                     <td className="p-3">
